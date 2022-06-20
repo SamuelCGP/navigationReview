@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_blankFragment_to_blankFragment2"
             app:destination="@id/blankFragment2" />
+        <action
+            android:id="@+id/action_blankFragment_to_blankFragment3"
+            app:destination="@id/blankFragment3" />
     </fragment>
     <fragment
         android:id="@+id/blankFragment2"
@@ -20,7 +23,43 @@
         android:label="fragment_blank2"
         tools:layout="@layout/fragment_blank2" >
         <action
-            android:id="@+id/action_blankFragment2_to_blankFragment"
+            android:id="@+id/action_blankFragment2_to_blankFragment4"
+            app:destination="@id/blankFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment3"
+        android:name="com.example.myapplication.BlankFragment3"
+        android:label="fragment_blank3"
+        tools:layout="@layout/fragment_blank3" >
+        <action
+            android:id="@+id/action_blankFragment3_to_blankFragment5"
+            app:destination="@id/blankFragment5" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment4"
+        android:name="com.example.myapplication.BlankFragment4"
+        android:label="fragment_blank4"
+        tools:layout="@layout/fragment_blank4" >
+        <action
+            android:id="@+id/action_blankFragment4_to_blankFragment6"
+            app:destination="@id/blankFragment6" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment5"
+        android:name="com.example.myapplication.BlankFragment5"
+        android:label="fragment_blank5"
+        tools:layout="@layout/fragment_blank5" >
+        <action
+            android:id="@+id/action_blankFragment5_to_blankFragment6"
+            app:destination="@id/blankFragment6" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment6"
+        android:name="com.example.myapplication.BlankFragment6"
+        android:label="fragment_blank6"
+        tools:layout="@layout/fragment_blank6" >
+        <action
+            android:id="@+id/action_blankFragment6_to_blankFragment"
             app:destination="@id/blankFragment" />
     </fragment>
 </navigation>
